@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.head-img {
+  position: absolute;
+}
+.header-text {
+  position: relative;
+  color: #ffff;
+}
+.nav-links a {
+  margin-right: 17px;
+}
+.plan-trip:hover {
+  background-color: #ffff;
+  color: orange;
+  font-weight: 400;
+}
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.flight {
+  margin-left: 350px;
+}
+input {
+  padding: 15px;
+}

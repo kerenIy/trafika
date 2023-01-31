@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Flights</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-section">
+        <img src="images/flightsss.jpg" alt="" class="head-img" />
+        <div class="header-text p-10">
+          <nav class="flex justify-between">
+            <p class="logo text-3xl font-bold">TRAFIKA</p>
+            <div class="nav-links">
+              <a href="">Home</a>
+              <a href="">Flights</a>
+              <a href="">Hotels</a>
+              <a href="">About</a>
+              <a href="">Contact</a>
+            </div>
+            <button class="border p-3 plan-trip bold text-orange-400 bg-white">
+              Sign in
+            </button>
+          </nav>
+
+          <div class="head-text p-32 ml-14 text-center">
+            <p class="font-black text-7xl text-center">
+              fly <span class="uppercase">Africa</span> the right way
+            </p>
+            <br />
+            <button class="border p-5 plan-trip bold text-orange-400 bg-white">
+              &#x2192;&nbsp;book a flight
+            </button>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br />
+
+      <div class="flight border-transparent">
+        <input type="text" placeholder="current location" class="shadow-md" />
+        <input type="text" placeholder="destination" class="shadow-md" />
+        <input type="date" class="shadow-md" />
+        <button id="flight" class="bg-orange-400 p-3">Check Flights</button>
+      </div>
+      <br />
+
+      <div class="output"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
